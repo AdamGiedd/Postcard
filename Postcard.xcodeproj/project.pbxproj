@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D42EE8F019D0DA5E00CDC1D2 /* Peru 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D42EE8EF19D0DA5E00CDC1D2 /* Peru 8.jpg */; };
+		D42EE8F219D0DF9D00CDC1D2 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D42EE8F119D0DF9D00CDC1D2 /* AlbertEinsteinStamp.jpg */; };
 		D48E6AB419CE8B0800E6E278 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48E6AB319CE8B0800E6E278 /* AppDelegate.swift */; };
 		D48E6AB619CE8B0800E6E278 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48E6AB519CE8B0800E6E278 /* ViewController.swift */; };
 		D48E6AB919CE8B0900E6E278 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48E6AB719CE8B0900E6E278 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D42EE8EF19D0DA5E00CDC1D2 /* Peru 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Peru 8.jpg"; sourceTree = "<group>"; };
+		D42EE8F119D0DF9D00CDC1D2 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 		D48E6AAE19CE8B0600E6E278 /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48E6AB219CE8B0700E6E278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D48E6AB319CE8B0800E6E278 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 		D48E6AB119CE8B0600E6E278 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D42EE8F119D0DF9D00CDC1D2 /* AlbertEinsteinStamp.jpg */,
+				D42EE8EF19D0DA5E00CDC1D2 /* Peru 8.jpg */,
 				D48E6AB219CE8B0700E6E278 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D48E6AB919CE8B0900E6E278 /* Main.storyboard in Resources */,
+				D42EE8F019D0DA5E00CDC1D2 /* Peru 8.jpg in Resources */,
+				D42EE8F219D0DF9D00CDC1D2 /* AlbertEinsteinStamp.jpg in Resources */,
 				D48E6ABE19CE8B0D00E6E278 /* LaunchScreen.xib in Resources */,
 				D48E6ABB19CE8B0B00E6E278 /* Images.xcassets in Resources */,
 			);
@@ -405,6 +413,7 @@
 				D48E6ACF19CE8B1100E6E278 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D48E6AD019CE8B1100E6E278 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				D48E6AD219CE8B1100E6E278 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
